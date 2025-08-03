@@ -25,17 +25,8 @@ const[passwordError, setPasswordError] = React.useState('');
      <AppButton title='Contained' variant='primary' size='small' onPress={()=>{}} testID='contained-button' />
       <AppButton title='Outlined' variant='outline' onPress={()=>{}} testID='outlined-button' />
         <AppButton title='Text' variant='text' onPress={()=>{}} testID='text-button' />
-          <AppButton title='secondary' variant='secondary'  onPress={()=>{}} testID='secondary-button' />
-{/* <AppTextInput 
-        label='Email'
-        placeholder='Enter your email'
-        value=''
-        onChangeText={(text) => console.log(text)}
-        error='This field is required'
-        keyboardType='email-address'
-        style={{ marginBottom: 20 }}
-        testID='email-input'
-      /> */}
+          <AppButton title='secondary' variant='secondary'  onPress={()=>{}} testID='secondary-button' /> 
+      
       {/* {username input}  */}
       <AppTextInput 
         label='Username'
